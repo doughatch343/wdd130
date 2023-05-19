@@ -18,7 +18,7 @@ main section {
     height: 725px;
 }
 body {
-    background-color: #66d655; 
+    background-color: #66d655;
 }
 header {
     background-color:rgba(51, 105, 13, 0.7);
@@ -63,5 +63,8 @@ footer a:hover {
     color: #d9c2a3;
 }
 .icon {
+    width: 80px;
+}
+.logo {
     width: 80px;
 }
