@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+:root{
+--primary-color: #4E7AE1;
+--secondary-color: #7ABD3B;
+--accent1-color: #63372C;
+--accent2-color: #F2E5D7;
+
+--heading-font: '______', serif;
+--paragraph-font: '______', serif;
+
+--nav-background-color: #63372C;
+--nav-link-color: ##63372C;
+--nav-hover-link-color: #4E7AE1;
+--nav-hover-background-color: #4E7AE1;
+}
+
+body {
+    font-family: 'Brush Script MT';
+}
+
+body {
+    font-family: Georgia;
+}
+
+h1 {
+    font-family: 'Arial Black';
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+body {
+    font-family: Roboto;
+}
+h1 {
+    font-family: 'Rock Salt';
+}
