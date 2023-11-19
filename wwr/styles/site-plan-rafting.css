@@ -23,22 +23,28 @@ body {
 }
 
 h1 {
-    font-family: 'Arial Black';
+    font-family: 'Roboto';
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-p {
-    font-family: 'Arial Black';
-    color: var(--primary-color)
+img {
+    width: 400px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
   }
 
-h3 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
+p {
+    font-family: 'Roboto';
+    color: var(--accent1-color)
+  }
+
+
 p {
     font-family: var(--paragraph-font);
 }
