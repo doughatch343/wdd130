@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     font-family: 'Arial Black';
-    color: #4E7AE1
+    color: var(--primary-color)
   }
 
 h3 {
@@ -40,7 +40,7 @@ h3 {
     color: var(--primary-color);
 }
 p {
-    font-family: var(--heading-font)
+    font-family: var(--heading-font);
 }
 
 body {
