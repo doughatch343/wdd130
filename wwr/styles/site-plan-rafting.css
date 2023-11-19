@@ -8,10 +8,10 @@
 --heading-font: 'Georgia', serif;
 --paragraph-font: 'Brush Script MT', serif;
 
---nav-background-color: #63372C;
---nav-link-color: ##63372C;
---nav-hover-link-color: #4E7AE1;
---nav-hover-background-color: #4E7AE1;
+--nav-background-color: #7abd3b;
+--nav-link-color: #F2E5D7;
+--nav-hover-link-color: #63372C;
+--nav-hover-background-color: #F2E5D7;
 }
 
 body {
@@ -25,11 +25,23 @@ body {
 h1 {
     font-family: 'Arial Black';
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
+p {
+    font-family: 'Arial Black';
+    color: #4E7AE1
+  }
+
+h3 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+p {
+    font-family: var(--heading-font)
+}
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 body {
     font-family: 'Roboto';
@@ -39,7 +51,7 @@ h1 {
 }
 header {
     padding: 20px;
-    background-color: var(--#63372C);
+    background-color: var(--#7abd3b);
 }
 p {
     padding: 25px;
@@ -64,4 +76,10 @@ nav {
   nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+  }
+
+  footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
   }
