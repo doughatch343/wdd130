@@ -18,6 +18,10 @@ body {
     font-family: 'Roboto';
 }
 
+h1 {
+  color: steelblue;
+}
+
 body {
     font-family: 'Rock Salt';
 }
@@ -38,6 +42,14 @@ img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
   }
+
+  p {
+    padding: 10px;
+}
+
+main {
+    max-width: 840px;
+}
 
 p {
     font-family: 'Roboto';
@@ -83,6 +95,29 @@ nav {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
   }
+  
+  aside {
+    width: 20rem
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+  }
+
+  aside img {
+    width: 200px;
+    height: auto;
+  }
+
+  main img {
+    width: 150px;
+    height: auto;
+  }
+
+
+  p { padding: 0;}
 
   footer {
     margin-top: 15px;
