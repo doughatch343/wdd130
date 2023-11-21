@@ -61,7 +61,6 @@ aside h2 {
   left: 150px;
 }
 
-
 footer {
   margin-top: 1em;
   border-top: 1px solid #000;
@@ -71,7 +70,7 @@ footer {
   /* Class Selectors */
   .box {
     margin: 1rem;
-    border: 1px solid steelblue (0,0,0,.1);
+    border: 1px solid steelblue;
     padding: 1px;
     background-color: white;
     color: black
