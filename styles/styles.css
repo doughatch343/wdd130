@@ -71,10 +71,10 @@ footer {
   /* Class Selectors */
   .box {
     margin: 1rem;
-    border: 1px solid rgba (0,0,0,.1);
-    padding: 1rem;
-    background-color: #eee;
-    color: #000;
+    border: 1px solid steelblue (0,0,0,.1);
+    padding: 1px;
+    background-color: white;
+    color: black
   }
 
   .indent {
