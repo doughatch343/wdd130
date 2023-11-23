@@ -20,19 +20,23 @@ body {
 
 .hero img {
   display: block;
-  width: 100%;
+  width: 40%;
   height: auto;
 }
 
 h1 {
 color: steelblue;
+font-family: 'Roboto';
+position: absolute;
+top: 5px;
+left: 5px;
 }
 
 body {
   font-family: 'Rock Salt';
 }
 
-main img {
+main section img {
   width: 150px;
   height: auto;
   border: 1px solid steelblue;
@@ -42,19 +46,9 @@ main img {
   margin: 0 0 1rem 1rem;
 }
 
-h1 {
-  font-family: 'Roboto';
-}
-
-h1, h2 {
+h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--primary-color);
-}
-
-h1 {
-  position: absolute;
-  top: 5px;
-  left: 5px;
 }
 
 img {
@@ -65,34 +59,32 @@ img {
   box-shadow: 0 0 30px gray;
 }
 
-.p {
+p {
   padding: 10px;
+  font-family: var(--paragraph-font);
+  color: #63372C;
 }
 
 main {
   max-width: 840px;
 }
 
-.p {
-  font-family: var(--paragraph-font);
-}
-
 body {
   font-family: 'Roboto';
 }
+
 h1 {
   font-family: 'Rock Salt';
 }
+
 header {
-  padding: 20px;
+  padding: 0px;
   background-color: var(--secondary-color);
 }
-p {
-  padding: 25px;
-}
+
 nav {
   background-color: var(--nav-background-color);
-  font-size: 1.2rem;
+  font-size: rem;
   display: flex;
 }
 
@@ -112,27 +104,9 @@ nav a:hover {
   background-color: var(--nav-hover-background-color);
 }
 
-aside {
-  width: 20rem;
-  margin: 1rem;
-  border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
-  padding: 1rem;
-  background-color: #eee;
-  color: #333;
-  text-align: center;
+footer img {
+  width: 30px;
 }
-
-aside img {
-  width: 200px;
-  height: auto;
-}
-
-main img {
-  width: 150px;
-  height: auto;
-}
-
-p { padding: 0;}
 
 footer {
   margin-top: 15px;
