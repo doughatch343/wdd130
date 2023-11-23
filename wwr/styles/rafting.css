@@ -18,6 +18,11 @@ body {
   font-family: 'Roboto';
 }
 
+body img {
+width: 500px;
+height: auto;
+}
+
 .hero img {
   display: block;
   width: 40%;
@@ -29,7 +34,7 @@ color: steelblue;
 font-family: 'Roboto';
 position: absolute;
 top: 5px;
-left: 5px;
+left: 543px;
 }
 
 body {
@@ -37,13 +42,14 @@ body {
 }
 
 main section img {
-  width: 150px;
-  height: auto;
+  width: 300px;
+  height: 200px;
   border: 1px solid steelblue;
   padding: 2px;
   box-shadow: 0 0 30px gray;
   float: right;
   margin: 0 0 1rem 1rem;
+  list-style-position: outside;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -83,7 +89,6 @@ header {
 }
 
 nav {
-  background-color: var(--nav-background-color);
   font-size: rem;
   display: flex;
 }
